@@ -1,31 +1,53 @@
+# Mac
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
 
-### STS ###
-.apt_generated
+# Eclipse
+.buildpath
 .classpath
-.factorypath
+*.launch
+.loadpath
+.metadata
 .project
-.settings
+*.pydevproject
+.settings/
 .springBeans
-.sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Intellij
+.idea/
 *.iml
+*.iws
 *.ipr
+*.ids
+*.orig
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
+# Maven
+log/
+target/
+.mvn/
+mvnw
+mvnw.cmd
 
-### VS Code ###
-.vscode/
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Java
+*.class
+
+# Directories
+/build/
+/bin/
+/out/
+/deploy/
+
+# Logs
+*.log
